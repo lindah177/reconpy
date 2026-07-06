@@ -1,0 +1,37 @@
+# Lab environment files
+*.vmdk
+*.ova
+*.iso
+*.vbox
+
+# Sensitive scan output
+*.xml
+nmap-*.txt
+*.pcap
+*.cap
+
+# Password/hash files - never commit these
+*.hash
+wordlists/
+rainbow-tables/
+/loot/
+/credentials/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Personal notes with sensitive info
+notes/personal/
+notes/targets/
