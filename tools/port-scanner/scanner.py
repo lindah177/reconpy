@@ -1,6 +1,7 @@
 import socket
 from datetime import datetime
 
+
 def scan_port(host, port):
     try:
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -10,6 +11,7 @@ def scan_port(host, port):
         return result == 0  # True if port is open
     except socket.error:
         return False
+    
 
 def run_scan(host, start_port, end_port):
     print(f"\n{'='*50}")
