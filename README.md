@@ -2,7 +2,7 @@
 # reconpy
 A command-line Python tool that automates the recon phase of a pentest.
 =======
-# Cybersecurity Portfolio — Lindah Mabunda
+# Cybersecurity Portfolio — Lindah Mohalanyane
 
 A practical learning portfolio documenting my journey from cybersecurity fundamentals to expert-level skills. Each folder contains working scripts, lab writeups, and tool configurations built through hands-on practice.
 
