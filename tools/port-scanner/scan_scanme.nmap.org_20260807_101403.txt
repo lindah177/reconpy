@@ -1,0 +1,12 @@
+Port Scan Report
+==================================================
+Target  : scanme.nmap.org
+Scanned : 2026-08-07 10:05:43
+Ports   : 1 - 1024
+==================================================
+
+Open ports found: 3
+
+Port 22     SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13
+Port 53     No banner
+Port 80     HTTP/1.1 200 OK
