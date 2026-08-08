@@ -60,7 +60,15 @@ def run_scan(host, start_port, end_port):
     print(f"{'='*50}\n")
 
 if __name__ == "__main__":
-    host = input("Enter target IP or hostname: ")
-    start = int(input("Start port: "))
-    end = int(input("End port: "))
-    run_scan(host, start, end)
+    import argparse
+    
+    parser = argparse.ArgumentParser(
+        description="Port scanner with banner grabbing for network reconnaissance"
+    )
+    parser.add_argument("host", help="Target IP or hostname")
+    parser.add_argument("start", type=int, help="Start port number")
+    parser.add_argument("end", type=int, help="End port number")
+    
+    args = parser.parse_args()
+    
+    run_scan(args.host, args.start, args.end)
