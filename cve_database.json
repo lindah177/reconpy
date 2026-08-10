@@ -1,0 +1,57 @@
+{
+  "SSH": {
+    "OpenSSH 6.6": [
+      {
+        "cve": "CVE-2015-3238",
+        "severity": "HIGH",
+        "description": "Authentication bypass in OpenSSH 6.6.x before 6.6.1p2"
+      },
+      {
+        "cve": "CVE-2014-6271",
+        "severity": "CRITICAL",
+        "description": "ShellShock - Bash environment variable vulnerability affects SSH"
+      }
+    ],
+    "OpenSSH 7.0": [
+      {
+        "cve": "CVE-2016-3115",
+        "severity": "MEDIUM",
+        "description": "User enumeration via timing analysis"
+      }
+    ]
+  },
+  "HTTP": {
+    "Apache 2.4.1": [
+      {
+        "cve": "CVE-2013-0169",
+        "severity": "HIGH",
+        "description": "SSL/TLS CBC padding oracle attack"
+      }
+    ],
+    "nginx 1.0": [
+      {
+        "cve": "CVE-2013-2070",
+        "severity": "MEDIUM",
+        "description": "Buffer overflow in gzip decompression"
+      }
+    ]
+  },
+  "MySQL": {
+    "5.5.0": [
+      {
+        "cve": "CVE-2016-6664",
+        "severity": "HIGH",
+        "description": "Privilege escalation via log file operations"
+      }
+    ]
+  },
+  "PostgreSQL": {
+    "9.4.0": [
+      {
+        "cve": "CVE-2014-9357",
+        "severity": "MEDIUM",
+        "description": "SECURITY DEFINER function privilege escalation"
+      }
+    ]
+  }
+}
