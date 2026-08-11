@@ -1,0 +1,27 @@
+{
+  "target": "scanme.nmap.org",
+  "target_ip": "45.33.32.156",
+  "timestamp": "2026-08-11 11:21:15",
+  "port_range": {
+    "start": 1,
+    "end": 1024
+  },
+  "open_ports_count": 3,
+  "open_ports": [
+    {
+      "port": 22,
+      "service": "SSH",
+      "banner": "SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13"
+    },
+    {
+      "port": 53,
+      "service": "DNS",
+      "banner": "No banner"
+    },
+    {
+      "port": 80,
+      "service": "HTTP",
+      "banner": "HTTP/1.1 200 OK\r"
+    }
+  ]
+}
