@@ -55,27 +55,6 @@ class VulnerabilityScanner:
         
         return None
     
-    # def find_vulnerabilities(self, service, version):
-    #     """Find CVEs for a given service and version"""
-    #     vulnerabilities = []
-        
-    #     if service not in self.cve_db:
-    #         return vulnerabilities
-        
-    #     service_db = self.cve_db[service]
-        
-    #     # Exact version match
-    #     if version and version in service_db:
-    #         vulnerabilities.extend(service_db[version])
-        
-    #     # Partial match - check if database version is contained in detected version
-    #     # e.g., "OpenSSH 6.6" matches "OpenSSH 6.6.1"
-    #     if version:
-    #         for db_version, cves in service_db.items():
-    #             if db_version.lower() in version.lower() and db_version not in (version or ""):
-    #                 vulnerabilities.extend(cves)
-        
-    #     return vulnerabilities
 
     def find_vulnerabilities(self, service, version):
         """Find CVEs for a given service and version"""
@@ -94,10 +73,8 @@ class VulnerabilityScanner:
         if version:
             for db_version, cves in service_db.items():
                 if db_version.lower() in version.lower():
-                    if db_version not in version:  # simplified check
-                        vulnerabilities.extend(cves)
+                    vulnerabilities.extend(cves)
         
-
         return vulnerabilities
     
     def format_severity(self, severity):
