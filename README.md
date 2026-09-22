@@ -367,76 +367,6 @@ All tools have been tested against real targets:
 
 ---
 
-## Limitations & Future Work
-
-### Port Scanner
-- [ ] UDP scanning support
-- [ ] Multi-threading for faster scans
-- [ ] Service fingerprinting beyond banners
-- [ ] Nmap/Masscan output parsing
-
-### Vulnerability Scanner
-- [ ] NVD API integration (live CVE data)
-- [ ] CVSS scoring
-- [ ] Exploit availability detection (Metasploit, PoC)
-- [ ] Historical vulnerability tracking
-- [ ] PDF/HTML report generation
-
-### Web Reconnaissance
-- [ ] Subdomain enumeration
-- [ ] Web directory fuzzing
-- [ ] API endpoint discovery
-- [ ] JavaScript framework detection
-- [ ] WHOIS and reverse IP lookup
-
----
-
-## Portfolio Value
-
-This project demonstrates:
-
-1. **Real Security Knowledge** — Not tutorial-following, but solving actual problems
-2. **Software Engineering** — Clean code, modular architecture, error handling
-3. **Security Mindset** — Understanding reconnaissance, vulnerability assessment, risk prioritization
-4. **Tool Development** — Building practical utilities that integrate with existing workflows
-5. **Python Proficiency** — Network programming, data handling, CLI design
-
-**Interview talking points:**
-- "Built a port scanner that integrates with a CVE vulnerability database"
-- "Designed tools to work in a data pipeline — port scanner output feeds vulnerability scanner"
-- "Implemented version matching logic to handle fuzzy software version strings"
-- "Created JSON output for automation and report generation"
-- "Performed web application reconnaissance including SSL/TLS analysis and technology fingerprinting"
-
----
-
-## What's Next
-
-**Phase 2: Offensive Basics** (planned)
-- Web application vulnerability scanner (OWASP Top 10)
-- Password attack tools (brute force, dictionary)
-- Metasploit integration examples
-
-**Phase 3: Defensive Skills** (planned)
-- Log analysis and SIEM queries
-- IDS rule writing
-- Incident response automation
-
----
-
-## Author
-
-**Lindah Mabunda**
-- Software Engineer → Cybersecurity Specialist
-- WeThinkCode_ graduate (NQF Level 6)
-- Python, Java, JavaScript
-- South Africa
-
-**GitHub:** [lindah177](https://github.com/lindah177)
-**Repository:** [reconpy](https://github.com/lindah177/reconpy)
-
----
-
 ## Timeline
 
 | Phase | Duration | Status |
@@ -445,16 +375,8 @@ This project demonstrates:
 | Vulnerability Scanner | Aug 16-20 | ✅ Complete |
 | Web Reconnaissance | Aug 21-26 | 🟡 In Progress |
 | Portfolio Writeups | Aug 27-31 | ⏳ Next |
-| Bonus: CTF/Cheatsheets | Sept 1-20 | ⏳ Planned |
-| Final Polish & Deploy | Sept 21-25 | ⏳ Planned |
 
 **Deadline:** September 25, 2025
-
----
-
-## License
-
-This project is for educational purposes. Use responsibly and ethically.
 
 ---
 
